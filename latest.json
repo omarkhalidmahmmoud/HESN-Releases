@@ -1,0 +1,95 @@
+{
+  "version": "2.2.1",
+  "edition": "HESN Enterprise V2.2",
+  "build_number": 21,
+  "build_date": "2026.11.24",
+  "updated_at": "2026-11-24 15:30:00",
+  "download_url": "https://github.com/omarkhalidmahmmoud/HESN-Releases/releases/download/v2.2.1/HESN.exe",
+  "sha256": "766FAB2216F4CAA18A0F7C7582EA1F4D801770CF459536CC00E1103D9924D430",
+  "file_size_bytes": 43318161,
+  "notes": "حِصْن | HESN Release V2.2.1 - نظام التحديث التلقائي المؤمّن ببصمة SHA-256 ومزامنة التراخيص وفترة تجريبية 7 أيام",
+  "release_highlights": [
+    {
+      "version": "2.2.1",
+      "date": "2026-11-24",
+      "title_ar": "الإصدار حِصْن V2.2.1 — التحديث التلقائي الآمن وتوحيد تراخيص HESN",
+      "title_en": "HESN Enterprise V2.2.1 — License-First Auto-Updater & Unified HESN Licensing",
+      "items_ar": [
+        "فحص صلاحية الترخيص أولاً مع مزامنة سحابية اختيارية موقّعة ببصمة HMAC دون المساس بالعمل الأوفلاين 100%",
+        "تحقق تلقائي من أحدث إصدار عبر GitHub Releases مع فحص بصمة SHA-256 قبل التثبيت",
+        "تحديث الفترة التجريبية المجانية إلى 7 أيام وتوحيد أكواد وبصمات HESN مع التوافق العكسي الكامل"
+      ],
+      "items_en": [
+        "License-first verification with optional HMAC-signed remote sync while preserving 100% offline-first operation",
+        "Automatic online version check via GitHub Releases with SHA-256 integrity verification before install",
+        "7-day free trial and unified HESN-prefixed keys/HWIDs with full legacy backward compatibility"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-20",
+      "title_ar": "الإصدار الرسمي حِصْن V2.0 — تأمين شامل وهوية مستقلة",
+      "title_en": "HESN Enterprise V2.0 — Production Hardening & Standalone Release",
+      "items_ar": [
+        "تحصين بوابة العملاء بعزل صارم لبيانات العميل والسيارة على مستوى الخادم والجلسات",
+        "إيقاف فوري لدخول وجلسات الموظفين المؤرشفين والموقوفين عبر كافة قنوات النظام",
+        "تأمين استيراد وتصدير Excel للمخزن والنسخ الاحتياطي اليومي الدوار (JSON + SQLite)",
+        "هوية حِصْن | HESN الرسمية مع ملف تنفيذي مستقل HESN.exe بدون نوافذ كونسول"
+      ],
+      "items_en": [
+        "Strict Customer Portal server-side Anti-IDOR isolation per customer & vehicle plate",
+        "Immediate login rejection and live session revocation for archived/resigned employees",
+        "Hardened Excel import/export validation and 7-day rolling SQLite + JSON backups",
+        "Official HESN branding and zero-console standalone HESN.exe executable"
+      ]
+    },
+    {
+      "version": "1.0.17",
+      "date": "2026-11-02",
+      "title_ar": "نظام قراءة التحديثات وسجل الإصدارات المباشر",
+      "title_en": "Live System Version & Official Updates Engine",
+      "items_ar": [
+        "قراءة ديناميكية كاملة لبيانات الإصدار والتحديثات من بنية النظام مباشرة",
+        "تحديث وتوطين شاشة الخزينة والماليات باللغة الإنجليزية بالكامل",
+        "سجل تفاعلي للتحديثات الرسمية وحالة سلامة قاعدة البيانات والمكونات"
+      ],
+      "items_en": [
+        "Full dynamic reading of system version and official updates from runtime",
+        "Complete Treasury & Cash Flow bilingual localization for English mode",
+        "Interactive official updates changelog & system integrity verification"
+      ]
+    },
+    {
+      "version": "1.0.16",
+      "date": "2026-10-31",
+      "title_ar": "التحويل ثنائي الاتجاه بالكامل (عربي / إنجليزي)",
+      "title_en": "Complete Bidirectional Bilingual Engine (AR / EN)",
+      "items_ar": [
+        "دعم كامل للغتين الإنجليزية والعربية في كافة شاشات ولوحات النظام",
+        "محاذاة كاملة للواجهة (RTL للعربية و LTR للإنجليزية) مع التبديل الفوري",
+        "استعادة وتثبيت القائمة الجانبية السريعة بجميع اللغات"
+      ],
+      "items_en": [
+        "Full support for Arabic and English across all tabs and panels",
+        "Complete layout direction switching (RTL / LTR) with instant toggle",
+        "Enhanced persistent quick-access sidebar in both languages"
+      ]
+    },
+    {
+      "version": "1.0.15",
+      "date": "2026-10-30",
+      "title_ar": "محرك تسوية الخزينة وإغلاق الورديات المتطور",
+      "title_en": "Advanced Treasury Reconciliation & Shift Z-Report Engine",
+      "items_ar": [
+        "نظام الجرد والتسوية الأسبوعية والدورية للخزينة والخزن الفرعية",
+        "تقرير إغلاق الوردية Z-Report مع تفقيط وحساب العجز والزيادة بدقة",
+        "تنسيق Obsidian Executive Dark Theme لكافة التقارير وكروت الفحص"
+      ],
+      "items_en": [
+        "Weekly and periodic treasury & multi-safes reconciliation suite",
+        "Shift Z-Report closing engine with precise cash variance tracking",
+        "Obsidian Executive Dark Theme styling for all inspection and report layouts"
+      ]
+    }
+  ]
+}

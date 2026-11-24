@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>حِصْن | HESN — تحميل الإصدار الرسمي</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #191c24;
+      --surface-2: #222633;
+      --gold: #c6934b;
+      --gold-soft: rgba(198, 147, 75, 0.16);
+      --text: #f2efe9;
+      --muted: #9e9a93;
+      --border: rgba(198, 147, 75, 0.25);
+      --ok: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      background: radial-gradient(circle at top right, rgba(198,147,75,0.12), transparent 45%), var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .container {
+      width: 100%;
+      max-width: 760px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--gold-soft);
+      color: var(--gold);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    h1 { font-size: 2rem; margin-bottom: 10px; letter-spacing: -0.3px; }
+    .subtitle { color: var(--muted); line-height: 1.7; margin-bottom: 24px; font-size: 1rem; }
+    .download-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .meta { display: flex; flex-direction: column; gap: 6px; }
+    .meta strong { font-size: 1.2rem; color: var(--gold); }
+    .meta span { color: var(--muted); font-size: 0.9rem; }
+    .btn-download {
+      background: linear-gradient(135deg, #d7a65c, #b47c32);
+      color: #111318;
+      text-decoration: none;
+      font-weight: 800;
+      padding: 14px 26px;
+      border-radius: 12px;
+      font-size: 1rem;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+      display: inline-block;
+    }
+    .btn-download:hover { transform: translateY(-1px); opacity: 0.95; }
+    .section-title { font-size: 1.05rem; color: var(--gold); margin-bottom: 10px; }
+    .notes {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+      padding: 16px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .feat {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .feat b { color: var(--text); display: block; margin-bottom: 4px; }
+    .sha-box {
+      font-family: Consolas, monospace;
+      font-size: 0.78rem;
+      color: var(--muted);
+      background: rgba(0, 0, 0, 0.3);
+      padding: 10px 12px;
+      border-radius: 8px;
+      word-break: break-all;
+      direction: ltr;
+      text-align: left;
+    }
+    .footer {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <span class="badge">الإصدار الرسمي لنظام Windows (64-bit)</span>
+    <h1>حِصْن | HESN — نظام إدارة مراكز الصيانة والورش</h1>
+    <p class="subtitle">
+      نظام سطح مكتب محلي مستقل يعمل بنسبة 100% دون الحاجة للإنترنت (Offline-First) مع فترة تجريبية مجانية لمدة 7 أيام،
+      وتحديثات رسمية تلقائية آمنة بمجرد توفر الاتصال.
+    </p>
+
+    <div class="download-card">
+      <div class="meta">
+        <strong id="ver-label">HESN Enterprise V2.0</strong>
+        <span id="build-label">جاري تحميل بيانات أحدث إصدار...</span>
+      </div>
+      <a id="download-btn" class="btn-download" href="#">تحميل HESN.exe للويندوز</a>
+    </div>
+
+    <div class="section-title">ملاحظات الإصدار</div>
+    <div id="release-notes" class="notes">حِصْن | HESN — الإصدار الإنتاجي النهائي المحصّن والمؤمّن بالكامل.</div>
+
+    <div class="features">
+      <div class="feat"><b>يعمل محلياً 100%</b>قاعدة بيانات SQLite WAL محمية مع نسخ احتياطي ذري مستمر.</div>
+      <div class="feat"><b>فترة تجريبية 7 أيام</b>تعمل تلقائياً على أي جهاز جديد دون خطوات معقدة.</div>
+      <div class="feat"><b>تحديثات ذكية وآمنة</b>فحص الترخيص أولاً ثم التحقق من التحديثات ببصمة SHA-256.</div>
+    </div>
+
+    <div class="section-title">بصمة التحقق الأمني (SHA-256)</div>
+    <div id="sha-box" class="sha-box">جاري القراءة من latest.json...</div>
+
+    <div class="footer">
+      <span>المطور: Omar Khalid Mahmoud</span>
+      <span>متطلبات التشغيل: Windows 10 / 11 (64-bit) + Edge WebView2</span>
+    </div>
+  </main>
+
+  <script>
+    fetch('./latest.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('ver-label').textContent = `حِصْن | HESN v${d.version}`;
+        const mb = d.file_size_bytes ? ` • ${(d.file_size_bytes / (1024 * 1024)).toFixed(1)} MB` : '';
+        document.getElementById('build-label').textContent = `رقم البناء #${d.build_number || ''} • تاريخ ${d.build_date || ''}${mb}`;
+        const btn = document.getElementById('download-btn');
+        if (d.download_url) btn.href = d.download_url;
+        if (d.notes) document.getElementById('release-notes').textContent = d.notes;
+        document.getElementById('sha-box').textContent = d.sha256 ? `SHA-256: ${d.sha256}` : 'سيتم عرض البصمة عند رفع الإصدار.';
+      })
+      .catch(() => {
+        document.getElementById('build-label').textContent = 'تعذر تحميل latest.json — يرجى تحديث الصفحة.';
+      });
+  </script>
+</body>
+</html>
