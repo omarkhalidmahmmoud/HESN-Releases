@@ -1,14 +1,30 @@
 {
-  "version": "2.2.1",
-  "edition": "HESN Enterprise V2.2",
-  "build_number": 21,
-  "build_date": "2026.11.24",
-  "updated_at": "2026-11-24 15:30:00",
-  "download_url": "https://github.com/omarkhalidmahmmoud/HESN-Releases/releases/download/v2.2.1/HESN.exe",
-  "sha256": "768D1C775A5412DBAF74DAF661340D3BB14CEDF9D3564418B80662F6518E8921",
-  "file_size_bytes": 42519914,
-  "notes": "حِصْن | HESN Release V2.2.1 - نظام التحديث التلقائي المؤمّن ببصمة SHA-256 ومزامنة التراخيص وفترة تجريبية 7 أيام",
+  "version": "2.3.0",
+  "edition": "HESN Enterprise V2.3",
+  "build_number": 23,
+  "build_date": "2026.11.27",
+  "updated_at": "2026-11-27 14:00:00",
+  "download_url": "https://github.com/omarkhalidmahmmoud/HESN-Releases/releases/download/v2.3.0/HESN.exe",
+  "sha256": "AE6599C26602F3D8A67960CF438361BF1E5D3A4F83AB1561E29ABACC4DDDAB6E",
+  "file_size_bytes": 46854885,
+  "notes": "حِصْن | HESN Release V2.3.0 - تأمين تسجيل الدخول، ترخيص Ed25519 الصارم، عزل صلاحيات القراءة، وتصدير PDF الحقيقي",
   "release_highlights": [
+    {
+      "version": "2.3.0",
+      "date": "2026-11-27",
+      "title_ar": "الإصدار حِصْن V2.3.0 — ترخيص Ed25519 الصارم وتحصين الصلاحيات والمحاسبة",
+      "title_en": "HESN Enterprise V2.3.0 — Strict Ed25519 Licensing, RBAC Hardening & PDF Exports",
+      "items_ar": [
+        "تحصين تسجيل الدخول وإنشاء أول حساب مدير عام وإلغاء كلمات المرور الافتراضية",
+        "اعتماد توقيع Ed25519 الصارم لتراخيص الأجهزة وبيانات التحديث",
+        "عزل صلاحيات القراءة والتقارير المحاسبية مع تصدير PDF حقيقي"
+      ],
+      "items_en": [
+        "Hardened first-run admin setup and zero hardcoded default passcodes",
+        "Strict Ed25519 asymmetric verification for device licenses and release manifests",
+        "Strict read-only RBAC isolation, shift variance tracking, and native PDF export"
+      ]
+    },
     {
       "version": "2.2.1",
       "date": "2026-11-24",
@@ -91,5 +107,7 @@
         "Obsidian Executive Dark Theme styling for all inspection and report layouts"
       ]
     }
-  ]
+  ],
+  "_manifest_sig": "3E7F2F01CD91C7B3A76CF3D0CDAAACB87C3B5144EFD8027572C0EDA816FD312B",
+  "_manifest_sig_ed25519": "C79F1E66AB7306ECE055DC57BD15413B1557E48DF66C1D5D4ECF024774D7F26C59CAB7AE933B97A18A32693AB186370BEC0877F24875B2BE646D895092612E0E"
 }
