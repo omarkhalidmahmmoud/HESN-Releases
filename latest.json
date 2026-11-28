@@ -1,14 +1,30 @@
 {
-  "version": "2.3.0",
-  "edition": "HESN Enterprise V2.3",
-  "build_number": 23,
-  "build_date": "2026.11.27",
-  "updated_at": "2026-11-27 14:00:00",
-  "download_url": "https://github.com/omarkhalidmahmmoud/HESN-Releases/releases/download/v2.3.0/HESN.exe",
-  "sha256": "F8E31EDAF2D3FA50F578381FF7B3788DA8E3AC2B42ED1375EF52EBC5F1E6098C",
-  "file_size_bytes": 46860574,
-  "notes": "حِصْن | HESN Release V2.3.0 - تأمين تسجيل الدخول، ترخيص Ed25519 الصارم، عزل صلاحيات القراءة، وتصدير PDF الحقيقي",
+  "version": "2.4.0",
+  "edition": "HESN Enterprise V2.4",
+  "build_number": 24,
+  "build_date": "2026.11.28",
+  "updated_at": "2026-11-28 21:15:00",
+  "download_url": "https://github.com/omarkhalidmahmmoud/HESN-Releases/releases/download/v2.4.0/HESN.exe",
+  "sha256": "2B5E2763F57D003D63DCF6C2ACCEC8FB4B4466F8B8D682481F3E92ED2CDF230B",
+  "file_size_bytes": 46941568,
+  "notes": "حِصْن | HESN Release V2.4.0 - وحدة العهد والعدة الكاملة، صيانة المعدات والجدول الدوري، المزامنة الثنائية مع المخزن، وتقارير الجرد",
   "release_highlights": [
+    {
+      "version": "2.4.0",
+      "date": "2026-11-28",
+      "title_ar": "الإصدار حِصْن V2.4.0 — وحدة العهد والعدة وصيانة المعدات والمزامنة مع المخزن",
+      "title_en": "HESN Enterprise V2.4.0 — Assets & Tools Custody, Equipment Maintenance & Store Sync",
+      "items_ar": [
+        "نظام متكامل لإدارة العهد والعدة: سجل المعدات، تسليم وإرجاع ونقل العهد، وطباعة إقرار الاستلام بالعدد",
+        "صيانة المعدات والجدول الدوري مع تنبيهات ما قبل الموعد وتقارير جرد العهد والمفقود والتالف",
+        "ربط ومزامنة ثنائية للكمية والعدد والسعر مع المخزن مع خصم واسترداد تلقائي وتشديد صلاحيات RBAC"
+      ],
+      "items_en": [
+        "Complete Assets & Tools Custody module: equipment registry, assign/return/transfer & quantity receipts",
+        "Equipment maintenance orders, periodic service schedules with pre-due alerts & custody audit reports",
+        "Two-way Store quantity/price sync with automatic assign deduction, return restock & strict RBAC audit logging"
+      ]
+    },
     {
       "version": "2.3.0",
       "date": "2026-11-27",
@@ -108,6 +124,6 @@
       ]
     }
   ],
-  "_manifest_sig": "1C2AB353B191C59934C7CCCD3112F3D444D5E09B65A047432BD35A8E29DA4959",
-  "_manifest_sig_ed25519": "FC81179C856B0C005749F06F22A9E23CAD96C90C42EB6B98F45D1F84E4F48D178CAF265945E59AD194808E3DF797CC39103E6046240BC9309A9E09C57373E206"
+  "_manifest_sig": "084DA3BB6BBA91665FE9E4D492D60211236C40218FB75DDBF0AF0B0B0B2F79A5",
+  "_manifest_sig_ed25519": "1EBE6D892E46D9AF877B062CC287EEEEAE96FA8CAFCB06732C7754914BE2DB040DEFBC1175A4818823E572EF138A8F559492A7912BACCA0A3347CC5A0DC9680E"
 }
