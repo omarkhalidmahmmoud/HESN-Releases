@@ -4,7 +4,7 @@
   "build_number": 23,
   "build_date": "2026.11.27",
   "updated_at": "2026-11-27 14:00:00",
-  "download_url": "https://github.com/omarkhalidmahmmoud/HESN-Releases/releases/download/v2.3.0-rc2/HESN.exe",
+  "download_url": "https://github.com/omarkhalidmahmmoud/HESN-Releases/releases/download/v2.3.0/HESN.exe",
   "sha256": "F8E31EDAF2D3FA50F578381FF7B3788DA8E3AC2B42ED1375EF52EBC5F1E6098C",
   "file_size_bytes": 46860574,
   "notes": "حِصْن | HESN Release V2.3.0 - تأمين تسجيل الدخول، ترخيص Ed25519 الصارم، عزل صلاحيات القراءة، وتصدير PDF الحقيقي",
@@ -108,6 +108,6 @@
       ]
     }
   ],
-  "_manifest_sig": "66319231B380402D28E17DEFACA5CC0CBADB277E63D537FE761E98B16FC417EC",
-  "_manifest_sig_ed25519": "9BF9F78B03958D9B7BCBFF35C4FFE75F97E7D2F2D5A92F5BD5171E24066BC2073D80395EFB57F4F46BB765BEE167857674C49FAD8923EF9EA7AE3EC565B78F0A"
+  "_manifest_sig": "1C2AB353B191C59934C7CCCD3112F3D444D5E09B65A047432BD35A8E29DA4959",
+  "_manifest_sig_ed25519": "FC81179C856B0C005749F06F22A9E23CAD96C90C42EB6B98F45D1F84E4F48D178CAF265945E59AD194808E3DF797CC39103E6046240BC9309A9E09C57373E206"
 }
